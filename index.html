@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivary</title>
+
+    <!-- Css link  -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Responsive css -->
+
+    <link rel="stylesheet" media= "screen and (max-width:1220px)" href="phone.css">
+
+    <!-- Font link  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="./Img/logo.png" alt="No-Image">
+        </div>
+
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services">Services</a></li>
+            <li class="item"><a href="#client-section">Clients</a></li>
+            <li class="item"><a href="#contact-box">Contact us</a></li>
+
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">
+            Welcome to my online food store
+        </h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+        <p>recusandae exercitationem voluptate </p>
+
+        <button class="btn">Order Now</button>
+    </section>
+
+    <section class="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="./Img/Card/bg1.jpg" alt="No-Image">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi eos aliquam
+                    perferendis, harum iste placeat possimus? Natus eos, quod necessitatibus unde consequatur omnis
+                    eligendi, provident, repellendus expedita harum soluta. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste blanditiis, veniam pariatur accusamus beatae perspiciatis mollitia repellendus rem cupiditate officia distinctio, dolores enim. Quibusdam animi provident neque nobis.</p>
+            </div>
+            <div class="box">
+                <img src="./Img/Card/bg2.jpg" alt="No-Image">
+                <h2 class="h-secondary center">Food Menu</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi eos aliquam
+                    perferendis, harum iste placeat possimus? Natus eos, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores repudiandae quo asperiores. Ad adipisci voluptatibus tempora quisquam voluptatem eum labore in natus fugit.quod necessitatibus unde consequatur omnis
+                    eligendi, provident, repellendus expedita harum soluta. Quibusdam animi provident neque nobis.</p>
+            </div>
+            <div class="box">
+                <img src="./Img/Card/bg3.png" alt="No-Image">
+                <h2 class="h-secondary center">Home Delivary</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quam rem deleniti quia quod repellendus? Culpa et, perspiciatis exercitationem voluptate modi voluptatem recusandae!adipisicing elit. Commodi eos aliquam
+                    perferendis, harum iste placeat possimus? Natus eos, quod necessitatibus unde consequatur omnis
+                    eligendi, provident, repellendus expedita harum soluta. Quibusdam animi provident neque nobis.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="client-section">
+        <h1 class="h-primary center">
+            Our Clients
+        </h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="./Img/Client/client1.jpg" alt="No-Image">
+            </div>
+
+            <div class="client-item">
+                <img src="./Img/Client/client2.png" alt="No-Image">
+            </div>
+            <div class="client-item">
+                <img src="./Img/Client/client1.jpg" alt="No-Image">
+            </div>
+
+            <div class="client-item">
+                <img src="./Img/Client/client3.jpg" alt="No-Image">
+            </div>
+
+            <div class="client-item">
+                <img src="./Img/Client/client1.jpg" alt="No-Image">
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="contact">
+
+        <h1 class="h-primary center">
+            Contact us
+        </h1>
+        <div id="contact-box">
+            <form action="backen.php" method="post">
+
+                <div class="form-group">
+                    <div>
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                    </div>
+
+                    <div>
+                        <label for="number">Number: </label>
+                        <input type="number" name="number" id="number" placeholder="Enter Your Number">
+                    </div>
+
+                    <div>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="Enter Your Mail">
+
+                    </div>
+                    <div>
+                        <label for="message">Message: </label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                    </div>
+            </form>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            copyright &copy www.myonlinemeal. All Right Reserved For Online Meal shop.
+        </div>
+    </footer>
+</body>
+
+</html>
